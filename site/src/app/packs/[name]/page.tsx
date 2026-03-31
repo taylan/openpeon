@@ -11,7 +11,7 @@ import { GitHubIcon } from "@/components/ui/GitHubIcon";
 import { PackCard } from "@/components/ui/PackCard";
 
 export const dynamicParams = true;
-export const revalidate = 1800;
+export const revalidate = 86400;
 
 export async function generateStaticParams() {
   const packs = await fetchAllPacks();

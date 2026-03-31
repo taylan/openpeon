@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { fetchAllPacks } from "@/lib/registry";
 import { PacksClient } from "./PacksClient";
 
-export const revalidate = 1800;
+export const revalidate = 86400;
 
 export const metadata: Metadata = {
   title: "Sound Packs",

@@ -55,7 +55,7 @@ function franchiseFromTags(tags?: string[]) {
 
 const REGISTRY_INDEX_URL = "https://peonping.github.io/registry/index.json";
 
-const FETCH_OPTIONS = { next: { revalidate: 1800, tags: [REGISTRY_TAG] } };
+const FETCH_OPTIONS = { next: { revalidate: 86400, tags: [REGISTRY_TAG] } };
 
 interface ProcessOpts {
   packName: string;
